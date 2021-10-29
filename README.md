@@ -8,6 +8,9 @@ This lets you stream music from any of your eligible Apple devices to any speake
 
 Steps:
 
-1. On your WiFi-enabled Raspberry Pi, run `sh AirPlay.sh`
-1. Connect the Raspberry Pi to an external speaker via AUX or HDMI.
-1. When selecting the audio output on your Apple device, you should see a new device called Raspberry Pi by default.
+1. On your WiFi-enabled Raspberry Pi, run:
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/aljaroudi/RaspberryPi/master/AirPlay.sh)"
+```
+3. Connect the Raspberry Pi to an external speaker via AUX or HDMI.
+4. When selecting the audio output on your Apple device, you should see a new device called Raspberry Pi by default.
