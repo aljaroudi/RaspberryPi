@@ -35,22 +35,18 @@ Block ads (or really anything) on any device connected to your network.
 
 Steps:
 
-1. Run this command on a Raspberry Pi ([or one of these](https://docs.pi-hole.net/main/basic-install/)):
+1. Install on a Raspberry Pi ([alt. methods](https://docs.pi-hole.net/main/basic-install/)):
 
 ```bash
 curl -sSL https://install.pi-hole.net | bash
 ```
 
-2. Configure your Raspberry Pi as a DNS server for other devices:
-
-   a) If you don't know its IP address, run `hostname -I`
-
-   b) [On](https://discourse.pi-hole.net/t/how-do-i-configure-my-devices-to-use-pi-hole-as-their-dns-server/245#setup-11)
+2. Get your Raspberry Pi's IP address
 
 ```bash
 hostname -I
 ```
 
-3.
+2. [Configure your Raspberry Pi as a DNS server for other devices](https://discourse.pi-hole.net/t/how-do-i-configure-my-devices-to-use-pi-hole-as-their-dns-server/245#setup-11)
 
 [Prerequisites](https://docs.pi-hole.net/main/prerequisites)
