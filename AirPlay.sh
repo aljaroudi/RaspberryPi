@@ -1,7 +1,4 @@
-
-# Recommended: make sure everything is up to date
-sudo apt-get update -y
-sudo apt-get upgrade -y
+#!/bin/bash
 
 # Install dependencies
 sudo apt-get install -y autoconf automake avahi-daemon build-essential git libasound2-dev libavahi-client-dev libconfig-dev libdaemon-dev libpopt-dev libssl-dev libtool xmltoman
@@ -30,6 +27,6 @@ sudo systemctl enable shairport-sync
 sudo echo "wireless-power off" >> /etc/network/interfaces
 
 # Resources:
-# https://www.jeffreythompson.org/blog/2020/04/29/build-an-airplay-receiver-using-raspberry-pi/
-# https://appcodelabs.com/7-easy-steps-to-apple-airplay-on-raspberry-pi
-# https://github.com/mikebrady/shairport-sync
+# # https://www.jeffreythompson.org/blog/2020/04/29/build-an-airplay-receiver-using-raspberry-pi/
+# # https://appcodelabs.com/7-easy-steps-to-apple-airplay-on-raspberry-pi
+# # https://github.com/mikebrady/shairport-sync
