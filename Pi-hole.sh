@@ -2,12 +2,10 @@
 
 curl -sSL https://install.pi-hole.net | bash
 
-echo "Use this IP address in your devices' DNS configruation:"
-
-hostname -I
-
 echo "Find out more on:"
 echo "https://docs.pi-hole.net/main/post-install/"
+echo "For adlists:"
+echo "https://firebog.net/"
 
 # Resources: 
 # # https://docs.pi-hole.net/main/basic-install/
