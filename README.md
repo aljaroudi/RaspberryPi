@@ -44,7 +44,7 @@ curl -sSL https://install.pi-hole.net | bash
 2. Configure your Raspberry Pi as a DNS server for other devices:
 
    - [Linux, macOS, and Windows](https://discourse.pi-hole.net/t/how-do-i-configure-my-devices-to-use-pi-hole-as-their-dns-server/245#setup-11)
-   - iOS and iPadOS: `Settings -> Wi-Fi -> (i) -> Configure DNS -> Manual (with only your Pi's IP address)`
+   - iOS and iPadOS: `Settings ➜ Wi-Fi ➜ (i) ➜ Configure DNS ➜ Manual (with only your Pi's IP address)`
 
 3. Optional: Find and add some [adlists](https://firebog.net/).
 
