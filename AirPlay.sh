@@ -26,6 +26,14 @@ sudo systemctl enable shairport-sync
 # Prevent wifi dropouts which may mess up your audio streaming.
 sudo echo "wireless-power off" >> /etc/network/interfaces
 
+# Set volume to 100%
+amixer set Headphone -- 100%
+# where Headphone is the name of the audio ouptut by default.
+# To find out your output's name:
+# sudo amixer | grep -o -P "(?<=').*(?=')"
+# More info about your output:
+# sudo amixer
+
 # Resources:
 # # https://www.jeffreythompson.org/blog/2020/04/29/build-an-airplay-receiver-using-raspberry-pi/
 # # https://appcodelabs.com/7-easy-steps-to-apple-airplay-on-raspberry-pi
